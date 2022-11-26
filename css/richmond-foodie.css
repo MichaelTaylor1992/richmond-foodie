@@ -1,0 +1,90 @@
+body {
+    margin: 10px;
+    background-color: #edddc6;
+	width: 1800px;
+
+}
+
+p {
+    margin-top: 9px;
+    font-size: 80%;
+    margin-bottom: 9px;
+	font-family: "Myriad Pro", Arial, Helvetica, Geneva, Swiss, sans-serif;
+	width: 700px;
+}
+
+img {
+	margin-left: 5px;
+    opacity: 0.97;
+}
+
+/* Still need to figure out how to attach individual fonts to individual nav fields */
+header {
+    float: left;
+	width: 2008px;
+	height: 85px;
+	margin-left:5px;
+	padding: 6px;
+	/*font-family: "bd-brick", "myriad-pro", serif; */
+	font-size: 500%;
+	background-color: #2e2c2b;
+	line-height: 90%;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.active {
+	font-family: "bd-brick", serif;
+	text-decoration: none; /* remove underline */
+	color: #edddc6; /* change font color */
+	padding: 50px 6px;
+	margin-left: 5px;
+}
+
+.active:hover{
+	background-color:#edddc6;
+	color: #3d3d3d;
+	text-decoration:none;
+}
+
+.nav-style{
+	width: 1400px;
+	font-family: "myriad-pro", serif;
+	padding: 50px 18px;
+	margin: 9px;
+	font-size: 43%;
+	color: #edddc6;
+	text-decoration: none;
+	background-color: #2e2c2b;
+
+}
+
+
+
+.nav-style:hover{
+	/*background-color:#3d3d3d;*/
+	background-color:#edddc6;
+	color: #3d3d3d;
+	text-decoration:none;
+}
+
+
+
+footer {
+	
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+    font-size: 30px;
+	padding-bottom: 4px;
+	color: #edddc6;
+	background-color: #2e2c2b;
+	float:left;
+	width: 2020px;
+	height: 38px;
+	margin-left:5px;
+	margin-top: -10px;
+}
+
+footer p {
+	text-align: right;
+	width: 99%;
+}
