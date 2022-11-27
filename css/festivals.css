@@ -1,0 +1,79 @@
+body {
+    background-color: #edddc6;
+	font-family: "Myriad Pro", serif;
+	margin-left:10px;
+	
+}
+main {
+	font-size:25px;
+}
+
+header {
+    float: left;
+	width: 2008px;
+	height: 85px;
+	margin-left:5px;
+	padding: 6px;
+	/*font-family: "bd-brick", "myriad-pro", serif; */
+	font-size: 500%;
+	background-color: #2e2c2b;
+	line-height: 90%;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.active {
+	font-family: "bd-brick", serif;
+	text-decoration: none; /* remove underline */
+	color: #edddc6; /* change font color */
+	padding: 50px 6px;
+	margin-left: 5px;
+}
+
+.active:hover{
+	background-color:#edddc6;
+	color: #3d3d3d;
+	text-decoration:none;
+}
+
+.nav-style{
+	width: 1400px;
+	font-family: "myriad-pro", serif;
+	padding: 50px 18px;
+	margin: 9px;
+	font-size: 43%;
+	color: #edddc6;
+	text-decoration: none;
+	background-color: #2e2c2b;
+
+}
+
+
+
+.nav-style:hover{
+	/*background-color:#3d3d3d;*/
+	background-color:#edddc6;
+	color: #3d3d3d;
+	text-decoration:none;
+}
+
+
+
+footer {
+	
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+    font-size: 20px;
+	padding-bottom: 4px;
+	color: #edddc6;
+	background-color: #2e2c2b;
+	float:left;
+	width: 2020px;
+	height: 42px;
+	margin-left:5px;
+	margin-top: -10px;
+}
+
+footer p {
+	text-align: right;
+	width: 99%;
+}
