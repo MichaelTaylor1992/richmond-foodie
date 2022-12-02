@@ -1,18 +1,22 @@
 body {
     background-color: #edddc6;
 	font-family: "Myriad Pro", serif;
-	margin-left:10px;
+	/*margin-left:10px;*/
 	
 }
 main {
-	font-size:25px;
+	font-size:30px;
+	background-image: url('../images/background_final.png');
+	background-size:cover;
+	padding:10px;
+	color: #edddc6;
 }
 
 header {
     float: left;
-	width: 2008px;
+	width: 100%;
 	height: 85px;
-	margin-left:5px;
+	/*margin-left:5px;*/
 	padding: 6px;
 	/*font-family: "bd-brick", "myriad-pro", serif; */
 	font-size: 500%;
@@ -37,7 +41,8 @@ header {
 }
 
 .nav-style{
-	width: 1400px;
+	/*width: 1400px;*/
+	width: 99%;
 	font-family: "myriad-pro", serif;
 	padding: 50px 18px;
 	margin: 9px;
@@ -67,13 +72,13 @@ footer {
 	color: #edddc6;
 	background-color: #2e2c2b;
 	float:left;
-	width: 2020px;
+	width: 2025px;
 	height: 42px;
-	margin-left:5px;
+	/*margin-left:5px;*/
 	margin-top: -10px;
 }
 
 footer p {
 	text-align: right;
-	width: 99%;
+	width: 98%;
 }
