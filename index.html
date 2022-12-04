@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <!--
-
-Name: Michael Taylor
-Website:  richmond-foodie.com
+	Name: Michael Taylor
+	Website:  richmond-foodie.com
 -->
 
 <html lang="en">
 	<head>
 		<title>richmond-foodie.com</title>
-		<link rel="stylesheet" type="text/css" href="css/richmond-foodie.css" >
-		<link rel="stylesheet" href="https://use.typekit.net/hcl4ppt.css">
-  		<meta charset="UTF-8">
+		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viepowrt" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/richmond-foodie.css" >
+		<link rel="stylesheet" href="https://use.typekit.net/hcl4ppt.css">		
 	</head>
+	
 	<body>
 		<!-- The home page is very simple.  The navigation bar at the top and the picture of the paella 
 			in the background.  The creator tag will be at the bottom right of the page -->
@@ -22,24 +23,26 @@ Website:  richmond-foodie.com
 			in class.  Some of the syntax may need to be cleaned up a bit but it is a work in 
 			progress -->	
 		<header>
-			<nav>
-		  	  <a class="active" href="#home">Richmond Foodie</a>
-				<a href="#abutme" class="nav-style"><strong>About Me</strong></a> 
+			<nav class="nav-site">
+				<a class="active brand-id" href="index.html">Richmond Foodie</a>
+				<a href="#aboutme" class="nav-style"><strong>About Me</strong></a> 
 				<a href="#restaurants" class="nav-style"><strong>Restaurants</strong></a>
-				<a href="#foodtrucks" class="nav-style"><strong>Food Trucks</strong></a>
-				<a href="#festivals" class="nav-style"><strong>Festivals</strong></a>
-				<a href="#news" class="nav-style"><strong>News</strong></a>
+				<a href="foodtrucks.html" class="nav-style"><strong>Food Trucks</strong></a>
+				<a href="festivals.html" class="nav-style"><strong>Festivals</strong></a>
+				<a href="news.html" class="nav-style"><strong>News</strong></a>
 			</nav>
 		</header>
-		<!-- Since the only other thing on my home page is going to be the background picture and no other text or sections,
-			I'm unclear if it will need to be within a section or article, or if simply being within 
-			the body of the HTML is enough. -->
-		<!-- In any event, the picture of the paella will go here -->
-		<br>
-		<img height="775" width=99% src="images/layer2.png" alt="Picture of Paella from Oceano">
+		<main>
+		<!-- In any event, the picture of the paella will go here from css -->
+		</main>
+		
+		<!-- 
+		Since the only other thing on my home page is going to be the background picture and no other text or sections,
+		I'm unclear if it will need to be within a section or article, or if simply being within he body of the HTML is enough. 
+		-->
 		<footer>
-		<!-- The creator tag will go in the footer.  Need to figure out how to place it at the bottom of the page. -->
-			<p> <!--style="text-align:right; bottom:0" --> Webpage by Okamifan1 Productions – &copy;2022 Richmond Foodie </p>
-			</footer>
+			<!-- The creator tag will go in the footer.  Need to figure out how to place it at the bottom of the page. -->
+			<p>Webpage by Okamifan1 Productions – &copy;2022 Richmond Foodie </p>
+		</footer>
 	</body>
 </html>
