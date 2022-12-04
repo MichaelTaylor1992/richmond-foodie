@@ -1,0 +1,86 @@
+/* Reset Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: #edddc6;
+	font-family: "Myriad Pro", serif;
+}
+
+header {
+	height: 85px;
+	font-size: 500%;
+	background-color: #2e2c2b;
+	line-height: 90%;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.nav-site {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 43%;	
+}
+
+.nav-site a {
+	color: #edddc6;
+	text-decoration: none;
+	background-color: #2e2c2b;
+}
+
+.nav-site a:hover {
+	background-color:#edddc6;
+	color: #3d3d3d;
+	text-decoration:none;
+}
+
+.nav-site .brand-id {
+	font-family: "bd-brick", serif;
+	font-size: 150%;
+}	
+
+/* .active { */
+	/* font-family: "bd-brick", serif; */
+	/* text-decoration: none; /* remove underline */ */
+	/* color: #edddc6; /* change font color */ */
+	/* padding: 50px 6px; */
+	/* margin-left: 5px; */
+/* } */
+
+/* .active:hover{ */
+	/* background-color:#edddc6; */
+	/* color: #3d3d3d; */
+	/* text-decoration:none; */
+/* } */
+
+/* .nav-style{ */
+	/* font-family: "myriad-pro", serif; */
+	/* padding: 50px 18px; */
+	/* margin: 9px; */
+	/* font-size: 43%; */
+	/* color: #edddc6; */
+	/* text-decoration: none; */
+	/* background-color: #2e2c2b; */
+/* } */
+
+
+
+footer {
+    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+    font-size: 30px;
+	padding-bottom: 4px;
+	color: #edddc6;
+	background-color: #2e2c2b;
+	height: 38px;
+}
+
+footer p {
+	text-align: right;
+	/* width: 99%; */
+}
