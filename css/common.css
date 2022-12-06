@@ -1,86 +1,115 @@
-/* Reset Styles */
-
+/*
+  * NOTES:
+  * box-sizing - https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+  * Why imnage display: block - https://www.tutorialrepublic.com/faq/how-to-remove-white-space-under-an-image-using-css.php
+  * display: flex
+    * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+    * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  * vw units
+    * https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+    * https://ishadeed.com/article/viewport-units/
+*/
+/***** =01 RESET/GLOBALS/HELPER CLASSES *****/
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    background-color: #edddc6;
-	font-family: "Myriad Pro", serif;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p {
+	margin-bottom: 1em;
 }
 
 header {
-	height: 85px;
-	font-size: 500%;
-	background-color: #2e2c2b;
-	line-height: 90%;
-	overflow: hidden;
-	text-decoration: none;
+  width: 100%;
+  height: 85px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: #2e2c2b;
+  overflow: hidden;
+  z-index: 100;
 }
-
-.nav-site {
-	border: 2px solid red;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	font-size: 43%;	
-}
-
-.nav-site a {
-	color: #edddc6;
-	text-decoration: none;
-	background-color: #2e2c2b;
-}
-
-.nav-site a:hover {
-	background-color:#edddc6;
-	color: #3d3d3d;
-	text-decoration:none;
-}
-
-.nav-site .brand-id {
-	font-family: "bd-brick", serif;
-	font-size: 150%;
-}	
-
-/* .active { */
-	/* font-family: "bd-brick", serif; */
-	/* text-decoration: none; /* remove underline */ */
-	/* color: #edddc6; /* change font color */ */
-	/* padding: 50px 6px; */
-	/* margin-left: 5px; */
-/* } */
-
-/* .active:hover{ */
-	/* background-color:#edddc6; */
-	/* color: #3d3d3d; */
-	/* text-decoration:none; */
-/* } */
-
-/* .nav-style{ */
-	/* font-family: "myriad-pro", serif; */
-	/* padding: 50px 18px; */
-	/* margin: 9px; */
-	/* font-size: 43%; */
-	/* color: #edddc6; */
-	/* text-decoration: none; */
-	/* background-color: #2e2c2b; */
-/* } */
-
-
 
 footer {
-    font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-    font-size: 30px;
-	padding-bottom: 4px;
-	color: #edddc6;
-	background-color: #2e2c2b;
-	height: 38px;
+  width: 100%;
+  height: 38px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  color: #edddc6;
+  background-color: #2e2c2b;
+  z-index: 11;
 }
 
 footer p {
-	text-align: right;
-	/* width: 99%; */
+  width: 100%;
+  padding-right: 2%;
+  font-size: 1.5vw;
+  text-align: right;
+}
+
+/***** =02 TYPOGRAPHY *****/
+body {
+  font-family: "Myriad Pro", Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+
+/***** =03 NAVIGATION *****/
+.nav-site {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-site a {
+  padding: 25px 0.5em; /*  2 * 25 = 50; 50 + 35 = 85; see height above. */
+  /* font-size: 35px; */
+  font-size: 2vw;
+  text-decoration: none; /* remove underline */
+  line-height: 1;
+  color: #edddc6;
+  background-color: #2e2c2b;
+}
+
+/* Still need to figure out how to attach individual fonts to individual nav fields */
+.nav-site a.brand-id {
+  padding-top: 3px;
+  padding-bottom: 9px;
+  font-family: "bd-brick", serif;
+  /* font-size: 80px; */
+  font-size: 4.1vw;
+}
+
+.nav-site a:hover {
+  background-color: #edddc6;
+  color: #3d3d3d;
+}
+
+/***** =04 LAYOUT *****/
+body {
+  background-color: #edddc6;
+}
+
+main {
+  /* height: calc(100vh - 120px); */
+  height: 100vh;
+  font-size: 25px;
+  background-image: url('../images/background_final_v2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
 }

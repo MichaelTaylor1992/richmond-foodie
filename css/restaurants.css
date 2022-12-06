@@ -1,12 +1,30 @@
-
-h2 {
-	color: blue;
+.restaurants {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* This tech technique described at: https://www.youtube.com/watch?v=tFKrK4eAiUQ*/
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  padding: 1em;
 }
 
-
-h3 {
-	color: yellow;
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #fff;
 }
 
+/* .container a:first-child {
+  padding: 1em;
+} */
 
-
+img.menu-icon {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 60px;
+  aspect-ratio: 1/1;
+  height: auto;
+}

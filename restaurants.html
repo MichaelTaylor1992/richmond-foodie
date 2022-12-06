@@ -1,96 +1,215 @@
-<!DOCTYPE html>
-<!--
-Name: Michael Taylor
-Website:  Festivals for richmond-foodie.com
--->
-
 <html lang="en">
 
-	<head>
-		<title>aboutme</title>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/common.css">
-		<link rel="stylesheet" href="css/aboutme.css" >
-		<link rel="stylesheet" href="https://use.typekit.net/hcl4ppt.css">		
-	</head>
-	
-	<body>
-		<!-- The navigation bar will go here -->
-		<!-- This is what I remember from past experience with html even though we haven't gone over it 
-			in class.  Some of the syntax may need to be cleaned up a bit but it is a work in 
-			progress -->	
-		<header>
-			<nav class="nav-site">
-				<a class="brand-id" href="index.html">Richmond Foodie</a>
-				<a href="aboutme.html" class="nav-style"><strong>About Me</strong></a> 
-				<a href="#restaurants" class="nav-style"><strong>Restaurants</strong></a>
-				<a href="foodtrucks.html" class="nav-style"><strong>Food Trucks</strong></a>
-				<a class="active" href="festivals.html" class="nav-style"><strong>Festivals</strong></a>
-				<a href="news.html" class="nav-style"><strong>News</strong></a>
-			</nav>
-		</header>
-		<br>
-		<main>
-			<section>
-			<h2>Restaurants</h2>
-			
-			<div id="container">
-			<a href="https://www.oceanorva.com/about/" target="_blank"><img height="60" width="120" src="images/oceanologo.png" alt="Oceano logo"></a>
-			<a href="https://www.oceanorva.com/menu/" target="_blank"><img height="60" width="60" src="images/menuicon.jpg" alt="Oceano menu"></a>
-			<br>
-			<img height="120" width="160" src="images/paella.jpg" alt="Paella from Oceano" style='float: left;'/>
-			<img height="120" width="160" src="images/ceviche.jpg" alt="Picture of ceviche from Oceano" style='float: left;'/>
-			<img height="120" width="160" src="images/oceano-nystrip.jpg" alt="Picture of NY Strip from Oceano">
-			<br>
-			<a href="https://thehardshell.com/bellgrade/" target="_blank"><img height="60" width="120" src="images/hardshelllogo.png" alt="Hardshell logo"></a>
-			<a href="https://thehardshell.com/wp-content/uploads/HSB-Dinner-Lunch.pdf" target="_blank"><img height="60" width="60" src="images/menuicon.jpg" alt="Hardshell menu"></a>
-			<br>
-			<img height="120" width="160" src="images/hardshell-wedge.jpg" alt="Picture of Wedge Salad from Hard Shell" style='float: left;'/>
-			<img height="120" width="160" src="images/hardshell-crabdip.jpg" alt="Picture of Crab Dip from Hard Shell" style='float: left;'/>
-			<img height="120" width="160" src="images/hardshell-calamari.jpg" alt="Picture of Calamari from Hard Shell" style='float: left;'/>
-			<img height="120" width="160" src="images/hardshell-filet.jpg" alt="Picture of Steak from Hard Shell" style='float: left;'/>
-			<img height="120" width="160" src="images/hardshell-pasta.jpg" alt="Picture of Seafood pasta from Hard Shell" style='float: left;'/>
-			<img height="120" width="160" src="images/hardshell-cheesecake.jpg" alt="Picture of Cheesecake from Hard Shell"
-			<br>
-			<p>Siam Paragon Thai Cuisine</p>
-			<img height="120" width="160" src="images/seawar-siamparagon.jpg" alt="Picture from Siam Paragon">
-			<br>
-			<p>Amigos Family Restaurant</p>
-			<img height="120" width="160" src="images/chilaquiles.jpg" alt="Picture of chilaquiles">
-			<br>
-			<p>Can-Can</p>
-			<img height="120" width="160" src="images/cancan.jpg" alt="Picture of cancan">
-			<p>
-			<p>ML Modern Steakhouse</p>
-			<br>
-			<img height="120" width="160" src="images/mlsteak-steak.jpg" alt="Steak from ML Steakhouse" style='float: left;'/>
-			<img height="120" width="160" src="images/mlsteak-chicken.jpg" alt="Fried Chicken from ML Steakhouse">
-			<p> </p>
+<head>
+  <title>Restaurants - Richmond Foodie</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viepowrt" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/hcl4ppt.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/restaurants.css">
+  <link rel="stylesheet" href="css/slider.css">
+</head>
 
-			<p>Mama J's</p>
-			<br>
-			<img height="120" width="160" src="images/mamajs.jpg" alt="Chicken from Mama J's" style='float: left;'/>
-			<img height="120" width="160" src="images/mamajs2.jpg" alt="Picture 2 from Mama J's">
+<body>
+  <header>
+    <nav class="nav-site">
+      <a class="brand-id" href="index.html">Richmond Foodie</a>
+      <a href="aboutme.html" class="nav-style"><strong>About Me</strong></a>
+      <a href="restaurants.html" class="nav-style"><strong>Restaurants</strong></a>
+      <a href="foodtrucks.html" class="nav-style"><strong>Food Trucks</strong></a>
+      <a class="active" href="festivals.html" class="nav-style"><strong>Festivals</strong></a>
+      <a href="news.html" class="nav-style"><strong>News</strong></a>
+    </nav>
+  </header>
 
-			<p>Sugar's Crab Shack</p>
-			<br>
-			<img height="120" width="160" src="images/sugars-3piecefish.jpg" alt="3 piece fish from Sugar's" style='float: left;'/>
-			<img height="120" width="160" src="images/sugars-5pcoysters.jpg" alt="5 piece oysters from Sugar's">
+  <main>
+
+    <h2>Restaurants</h2>
+
+    <div class="restaurants">
+
+      <div id="oce" class="container">
+        <a href="https://www.oceanorva.com/about/" target="_blank" rel="noreferrer noopener">
+          <img height="60" width="120" src="images/oceanologo.png" alt="Link to Oceano website.">
+        </a>
+        <a href="https://www.oceanorva.com/menu/" target="_blank" rel="noreferrer noopener">
+          <img height="60" width="60" src="images/menuicon.gif" alt="Link to Oceano menu" class="menu-icon">
+        </a>
+
+        <div class="slider">
+
+          <input type="radio" id="oce-i1" name="oce-images" checked>
+          <input type="radio" id="oce-i2" name="oce-images">
+          <input type="radio" id="oce-i3" name="oce-images">
+
+          <div class="slide_img" id="oce-one">
+            <img src="images/paella.jpg" alt="Paella.">
+
+            <label class="prev" for="oce-i3"><span>&#x2039;</span></label>
+            <label class="next" for="oce-i2"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="oce-two">
+            <img src="images/ceviche.jpg" alt="Ceviche.">
+
+            <label class="prev" for="oce-i1"><span>&#x2039;</span></label>
+            <label class="next" for="oce-i3"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="oce-three">
+            <img src="images/oceano-nystrip.jpg" alt="NY Strip.>">
+
+            <label class="prev" for="oce-i2"><span>&#x2039;</span></label>
+            <label class="next" for="oce-i1"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="nav_slide">
+            <label for="oce-i1" class="dots" id="oce-dot1"></label>
+            <label for="oce-i2" class="dots" id="oce-dot2"></label>
+            <label for="oce-i3" class="dots" id="oce-dot3"></label>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="sia" class="container">
+        <a href="https://www.sptrva.com/home" target="_blank"><img height="60" width="120" src="images/siamparagonlogo.PNG" alt="Siam Paragon logo"></a>
+        <a href="https://www.sptrva.com/menu" target="_blank"><img height="60" width="60" src="images/menuicon.gif" alt="Siam Paragon menu" class="menu-icon"></a>
+
+        <div class="slider-solo">
+          <img height="120" width="160" src="images/seawar-siamparagon.jpg" alt="Picture from Siam Paragon">
+        </div>
+
+      </div>
 
 
-			</div>
-			
-			</p>
-			
-			</div>
-			<br>
-		</main>
-		<footer>
-		<!-- The creator tag will go in the footer.  Need to figure out how to place it at the bottom of the page. -->
-			<p> <!--style="text-align:right; bottom:0" --> Webpage by Okamifan1 Productions – &copy;2022 Richmond Foodie </p>
-		</footer>
-	</body>
-	</html>
-	
+      <div id="hrd" class="container">
+        <a href="https://thehardshell.com/bellgrade/" target="_blank"><img height="60" width="120" src="images/hardshell_r.jpg" alt="Link to Hardshell website"></a>
+        <a href="https://thehardshell.com/wp-content/uploads/HSB-Dinner-Lunch.pdf" target="_blank"><img height="60" width="60" src="images/menuicon.gif" alt="Hardshell menu" class="menu-icon"></a>
+
+        <div class="slider">
+
+          <input type="radio" id="hrd-i1" name="hrd-images" checked />
+          <input type="radio" id="hrd-i2" name="hrd-images" />
+          <input type="radio" id="hrd-i3" name="hrd-images" />
+          <input type="radio" id="hrd-i4" name="hrd-images" />
+          <input type="radio" id="hrd-i5" name="hrd-images" />
+          <input type="radio" id="hrd-i6" name="hrd-images" />
+
+
+          <div class="slide_img" id="hrd-one">
+            <img src="images/hardshell-wedge.jpg" alt="Wedge Salad">
+
+            <label class="prev" for="hrd-i6"><span>&#x2039;</span></label>
+            <label class="next" for="hrd-i2"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="hrd-two">
+            <img src="images/hardshell-crabdip.jpg" alt="Crab Dip">
+
+            <label class="prev" for="hrd-i1"><span>&#x2039;</span></label>
+            <label class="next" for="hrd-i3"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="hrd-three">
+            <img src="images/hardshell-calamari.jpg" alt="Calamari">
+
+            <label class="prev" for="hrd-i2"><span>&#x2039;</span></label>
+            <label class="next" for="hrd-i4"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="hrd-four">
+            <img src="images/hardshell-calamari.jpg" alt="Calamari">
+
+            <label class="prev" for="hrd-i3"><span>&#x2039;</span></label>
+            <label class="next" for="hrd-i5"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="hrd-five">
+            <img src="images/hardshell-pasta.jpg" alt="Seafood pasta">
+
+            <label class="prev" for="hrd-i4"><span>&#x2039;</span></label>
+            <label class="next" for="hrd-i6"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="hrd-six">
+            <img src="images/hardshell-cheesecake.jpg" alt="Cheesecake">
+
+            <label class="prev" for="hrd-i5"><span>&#x2039;</span></label>
+            <label class="next" for="hrd-i1"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="nav_slide">
+            <label for="hrd-i1" class="dots" id="hrd-dot1"></label>
+            <label for="hrd-i2" class="dots" id="hrd-dot2"></label>
+            <label for="hrd-i3" class="dots" id="hrd-dot3"></label>
+            <label for="hrd-i4" class="dots" id="hrd-dot4"></label>
+            <label for="hrd-i5" class="dots" id="hrd-dot5"></label>
+            <label for="hrd-i6" class="dots" id="hrd-dot6"></label>
+          </div>
+
+        </div>
+	</div>
+      <div id="ami" class="container">
+        <a href="https://www.amianorva.com/about/" target="_blank" rel="noreferrer noopener">
+          <img height="60" width="120" src="images/amigoslogo.png" alt="Link to Amigos website.">
+        </a>
+        <a href="https://www.amianorva.com/menu/" target="_blank" rel="noreferrer noopener">
+          <img height="60" width="60" src="images/menuicon.gif" alt="Link to Amigos menu" class="menu-icon">
+        </a>
+		
+        <div class="slider-solo">
+          <img height="120" width="160" src="images/chilaquiles.jpg" alt="Chilaquiles from Amigos Family Resturaunt.">
+        </div>
+
+	  </div>
+
+        <!-- <
+
+      <p>Amigos Family Restaurant</p>
+      <img height="120" width="160" src="> -->
+
+
+        <!--
+      <p>Can-Can</p>
+
+      <img height="120" width="160" src="images/cancan.jpg" alt="Picture of cancan">
+      <p>
+      <p>ML Modern Steakhouse</p>
+      <br>
+      <img height="120" width="160" src="images/mlsteak-steak.jpg" alt="Steak from ML Steakhouse" />
+      <img height="120" width="160" src="images/mlsteak-chicken.jpg" alt="Fried Chicken from ML Steakhouse">
+      <p> </p>
+
+      <p>Mama J's</p>
+      <br>
+      <img height="120" width="160" src="images/mamajs.jpg" alt="Chicken from Mama J's" />
+      <img height="120" width="160" src="images/mamajs2.jpg" alt="Picture 2 from Mama J's">
+
+      <p>Sugar's Crab Shack</p>
+      <br>
+      <img height="120" width="160" src="images/sugars-3piecefish.jpg" alt="3 piece fish from Sugar's" />
+      <img height="120" width="160" src="images/sugars-5pcoysters.jpg" alt="5 piece oysters from Sugar's">
+
+
+      </div>
+
+      </p>
+
+      </div>
+      <br> -->
+      </div>
+  
+  
+  </main>
+  <footer>
+    <!-- The creator tag will go in the footer.  Need to figure out how to place it at the bottom of the page. -->
+    <p>
+      <!--style="text-align:right; bottom:0" --> Webpage by Okamifan1 Productions – &copy;2022 Richmond Foodie
+    </p>
+  </footer>
+</body>
+
+</html>
+

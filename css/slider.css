@@ -1,0 +1,236 @@
+
+/*
+  Based on code from: https://codecary.com/responsive-image-slider-using-html-and-css/
+*/
+.slider {
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin: 0 auto;
+  padding-bottom: 73%;
+  background-color: #1c1c1c;
+  border: solid 2px #333;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.slider .slide_img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.slider .slide_img img {
+  width: inherit;
+  height: inherit;
+}
+
+.prev,
+.next {
+  display: flex;
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12%;
+  height: inherit;
+  color: rgba(244, 244, 244, .9);
+  font-size: 3em;
+  font-size: calc(2em + 2vw);
+  text-align: center;
+  background-color: rgba(88, 88, 88, .2);
+  cursor: pointer;
+  transition: .45s;
+  z-index: 10;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.prev span {
+  margin-right: 10px;
+}
+
+.next span {
+  margin-left: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  color: #ffffff;
+  background-color: rgba(88, 88, 89, .8);
+  transition: .3s;
+}
+
+.slider .nav_slide {
+  position: absolute;
+  bottom: 12%;
+  width: 100%;
+  height: 11px;
+  text-align: center;
+  cursor: default;
+  z-index: 99;
+}
+
+.nav_slide .dots {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  margin: 0 4px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #444;
+  border-radius: 100%;
+  transition: .4s;
+}
+
+.nav_slide .dots:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition: .25s;
+}
+
+.slide_img {
+  z-index: -1;
+}
+
+#i1,
+#i2,
+#i3,
+#i4,
+#i5 {
+  display: none;
+}
+
+#i1:checked~#one,
+#i2:checked~#two,
+#i3:checked~#three,
+#i4:checked~#four,
+#i5:checked~#five {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#i1:checked~.nav_slide #dot1,
+#i2:checked~.nav_slide #dot2,
+#i3:checked~.nav_slide #dot3,
+#i4:checked~.nav_slide #dot4,
+#i5:checked~.nav_slide #dot5 {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+/* Need these four rule sets for each slider. */
+/* OCEANO */
+#oce-i1,
+#oce-i2,
+#oce-i3 {
+  display: none;
+}
+
+#oce-i1:checked~#one,
+#oce-i2:checked~#two,
+#oce-i3:checked~#three {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#oce-i1:checked~#oce-one,
+#oce-i2:checked~#oce-two,
+#oce-i3:checked~#oce-three {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#oce-i1:checked~.nav_slide #oce-dot1,
+#oce-i2:checked~.nav_slide #oce-dot2,
+#oce-i3:checked~.nav_slide #oce-dot3 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
+
+/* HARD SHELL */
+#hrd-i1,
+#hrd-i2,
+#hrd-i3,
+#hrd-i4,
+#hrd-i5,
+#hrd-i6 {
+  display: none;
+}
+
+#hrd-i1:checked~#one,
+#hrd-i2:checked~#two,
+#hrd-i3:checked~#three,
+#hrd-i1:checked~#four,
+#hrd-i2:checked~#five,
+#hrd-i3:checked~#six {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#hrd-i1:checked~#hrd-one,
+#hrd-i2:checked~#hrd-two,
+#hrd-i3:checked~#hrd-three,
+#hrd-i4:checked~#hrd-four,
+#hrd-i5:checked~#hrd-five,
+#hrd-i6:checked~#hrd-six {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#hrd-i1:checked~.nav_slide #hrd-dot1,
+#hrd-i2:checked~.nav_slide #hrd-dot2,
+#hrd-i3:checked~.nav_slide #hrd-dot3,
+#hrd-i4:checked~.nav_slide #hrd-dot4,
+#hrd-i5:checked~.nav_slide #hrd-dot5,
+#hrd-i6:checked~.nav_slide #hrd-dot6 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: .4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .slider {
+    width: 100%;
+    height: 0;
+    padding-bottom: 55%;
+    border: none;
+  }
+
+  label span {
+    font-size: 50pt;
+  }
+
+  .prev,
+  .next {
+    width: 15%;
+  }
+
+  .nav_slide .dots {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media screen and(min-width: 970px) {
+  .me {
+    display: none;
+  }
+}
