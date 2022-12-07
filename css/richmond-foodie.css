@@ -3,12 +3,12 @@ body {
 	/* height: 100vh; */
 }
 
-footer p {
-	padding-top: 4px;
-	padding-right: 12px;
-	font-family: "Myriad Pro", Arial, Helvetica, Geneva, Swiss, sans-serif;
-    font-size: 80%;	
-}
+/* footer p { */
+	/* padding-top: 4px; */
+	/* padding-right: 12px; */
+	/* font-family: "Myriad Pro", Arial, Helvetica, Geneva, Swiss, sans-serif; */
+    /* font-size: 80%;	 */
+/* } */
 
 img {
 	display: block;
