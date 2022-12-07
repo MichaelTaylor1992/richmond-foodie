@@ -1,6 +1,6 @@
 body {
 	/* width: 100%; */
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 footer p {
@@ -15,8 +15,8 @@ img {
     opacity: 0.97;
 }
 
-main {
-	height: calc(100vh - 140px);
+.page-frame {
+	height: 100vh;
 	background-image: url('../images/layer2.png');
 	background-size: cover;
 }

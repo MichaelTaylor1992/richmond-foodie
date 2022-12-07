@@ -195,7 +195,75 @@
   background-color: rgba(255, 255, 255, .9);
   border-color: black;
 }
+/* ML MODERN STEAKHOUSE */
+#mls-i1,
+#mls-i2 {
+  display: none;
+}
 
+#mls-i1:checked~#one,
+#mls-i2:checked~#two {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#mls-i1:checked~#mls-one,
+#mls-i2:checked~#mls-two {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#mls-i1:checked~.nav_slide #mls-dot1,
+#mls-i2:checked~.nav_slide #mls-dot2 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
+/* MAMMA J'S */
+#mjs-i1,
+#mjs-i2 {
+  display: none;
+}
+
+#mjs-i1:checked~#one,
+#mjs-i2:checked~#two {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#mjs-i1:checked~#mjs-one,
+#mjs-i2:checked~#mjs-two {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#mjs-i1:checked~.nav_slide #mjs-dot1,
+#mjs-i2:checked~.nav_slide #mjs-dot2 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
+/* SUGAR'S CRAB SHACK */
+#ssc-i1,
+#ssc-i2 {
+  display: none;
+}
+
+#ssc-i1:checked~#one,
+#ssc-i2:checked~#two {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#ssc-i1:checked~#ssc-one,
+#ssc-i2:checked~#ssc-two {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#ssc-i1:checked~.nav_slide #ssc-dot1,
+#ssc-i2:checked~.nav_slide #ssc-dot2 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
 @keyframes scroll {
   0% {
     opacity: .4;

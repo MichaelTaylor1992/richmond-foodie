@@ -16,6 +16,10 @@
   padding: 0;
 }
 
+html, body {
+	height: 100%;
+}
+
 img {
   display: block;
   width: 100%;
@@ -77,7 +81,7 @@ body {
 .nav-site a {
   padding: 25px 0.5em; /*  2 * 25 = 50; 50 + 35 = 85; see height above. */
   /* font-size: 35px; */
-  font-size: 2vw;
+  font-size: 1.8vw;
   text-decoration: none; /* remove underline */
   line-height: 1;
   color: #edddc6;
@@ -90,7 +94,7 @@ body {
   padding-bottom: 9px;
   font-family: "bd-brick", serif;
   /* font-size: 80px; */
-  font-size: 4.1vw;
+  font-size: 4vw;
 }
 
 .nav-site a:hover {
@@ -103,13 +107,19 @@ body {
   background-color: #edddc6;
 }
 
-main {
-  /* height: calc(100vh - 120px); */
-  height: 100vh;
-  font-size: 25px;
+.page-frame {
   background-image: url('../images/background_final_v2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+main {
+  /* height: calc(100vh - 120px); */
+  /* height: 100vh; */
+  padding-bottom: 2em;
+  font-size: 25px;
+  color: #edddc6;
+  
 }

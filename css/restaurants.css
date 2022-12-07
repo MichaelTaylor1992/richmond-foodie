@@ -16,6 +16,15 @@
   background-color: #fff;
 }
 
+.subnav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0.95em;
+  background-color: #666;
+}
+
 /* .container a:first-child {
   padding: 1em;
 } */
