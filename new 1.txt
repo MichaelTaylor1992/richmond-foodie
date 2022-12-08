@@ -1,0 +1,86 @@
+			<div class="foodtruck">
+				<h3>Kravings</h3>
+				<a href="https://www.kravingsrva.com" target="_blank">
+					<img height="110" width="180" src="images/kravings.png" alt="Logo and link to Kravings food truck, serving a fusion of Southern and Contemporary American cuisine">
+				</a>
+				<div class="ft-links">
+					<a href="https://streetfoodfinder.com/m/#!loadCalendar,kravings1," target="_blank">
+						<img height="60" width="60" src="images/calendaricon.jpg" alt="A link to Kravings Calendar of events">
+					</a>
+				</div>
+				<p>
+					The food truck that serves a fusion of Southern and Contemporary American cuisine
+				</p>
+			</div>
+			
+			<div class="foodtruck">
+				<h3>Lady Sharon's Soul Food Kitchen</h3>
+				<a href="https://www.ladysharonskitchen.com/" target="_blank">
+					<img height="110" width="180" src="images/ladysharons.png" alt="Logo and link to Lady Sharon's Soul Food Kitchen, serving soul food which celebrates the nostalgia of Grandma's Kitchen">
+				</a>
+				<div class="ft-links">
+					<a href="https://www.ladysharonskitchen.com/menu" target="_blank">
+						<img height="60" width="60" src="images/menuicon.jpg" alt="A link to the menu for Lady Sharon's Soul Food Truck">
+					</a>
+					<a href="https://www.ladysharonskitchen.com/calendar" target="_blank">
+						<img height="60" width="60" src="images/calendaricon.jpg" alt="A link to the calendar for Lady Sharon's Soul Food Kitchen">
+					</a>
+				</div>
+				<p>
+					Lady Sharon, serving soul food to celebrate the nostalgia of Grandma's kitchen
+				</p>
+			</div>
+			<div class="foodtruck">
+				<h3>Latin Quarter</h3>
+				<a href="https://www.latinquarterrva.com/" target="_blank">
+					<img height="110" width="180" src="images/lq.png" alt="One of my new favorites, serving amazing latin cuisine, specializing in smashed plantain sandwiches">
+				</a>
+				<div class="ft-links">
+					<a href="https://www.latinquarterrva.com/menu" target="_blank">
+						<img height="60" width="60" src="images/menuicon.jpg" alt="A link to the menu for Latin Quarter">
+					</a>
+					<a href="https://www.latinquarterrva.com/calendar" target="_blank">
+						<img height="60" width="60" src="images/calendaricon.jpg" alt="A link to Latin Quarter's Calendar">
+					</a>
+				</div>
+				<p>
+					One of my new favorite trucks, serving amazing Latin food, specializing in smashed plantain sandwhiches
+				</p>
+			</div>
+			<div class="foodtruck">
+				<h3>Southern Spud</h3>
+				<a href="http://www.southernspud.com/" target="_blank">
+					<img height="110" width="180" src="images/southern-spud.png" alt="A link to Southern Spud -- a food truck all about baked potatoes and the amazing things you can put on them to make an amzing meal">
+				</a>
+				<div class="ft-links">
+					<a href="http://www.southernspud.com/calendar" target="_blank">
+						<img height="60" width="60" src="images/calendaricon.jpg" alt="Southern Spud's Calendar">
+					</a>
+				</div>
+				<p>
+					The food truck, the baked potato, and all the amazing things you can combine with it to make a great meal
+				</p>
+			</div>
+			<div class="foodtruck">
+				<h3>Tasty Cuisine 5 by M&D</h3>
+				<a href="http://www.tastycuisine5.com/" target="_blank">
+					<img height="110" width="180" src="images/tastycuisine.png" alt="Tasty Cuisine 5, featuring soul food, seafood, Caribbean and Spanish cuisine. ">
+				</a>
+				<p>
+					Tasty cuisine features a unique combination of soul food, seafood, Carribean and Spanish dishes.
+				</p>
+			</div>
+			<div class="foodtruck">
+				<h3>Traditionz Mobile Kitchen</h3>
+				<a href="https://eatattraditionz.square.site/" target="_blank">
+					<img height="110" width="180" src="images/traditionz.png" alt="Great BBQ and they'll even bring the smoker with them">
+				</a>
+				<div class="ft-links">
+					<a href="https://eatattraditionz.square.site/menu" target="_blank">
+						<img height="60" width="60" src="images/menuicon.jpg" alt="A link to Traditionz Mobile Kitchen menu">
+					</a>
+				</div>
+				<p>
+					Great BBQ and they'll even bring their smoker with them.  
+				</p>
+			</div>
