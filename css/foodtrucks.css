@@ -3,7 +3,19 @@ h2 {
 }
 
 h3 {
-	color: gray;
+	color: lightgray;
+}
+
+.foodtruck {
+	width: 450px;
+	border: 1px solid black;
+	margin-bottom: 1em;
+}
+
+.ft-links {
+	display: flex;
+	justify-content: flex-start;
+	column-gap: 0.25em;
 }
 
 .ft-links img {

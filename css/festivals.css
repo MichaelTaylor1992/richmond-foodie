@@ -8,5 +8,18 @@ h3 {
 	color: gray;
 }
 
+.event-listing {
+	width: 400px;
+	text-align: center;
+	border:1px solid black;
+}
+
+.event-listing img {
+	margin-bottom: 1em;
+}
+
+.info {
+	padding: 0.5em;
+}
 
 

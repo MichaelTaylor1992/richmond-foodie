@@ -1,0 +1,37 @@
+/* aboutme.css */
+h2 {
+	color: gray;
+}
+
+
+h3 {
+	color: gray;
+}
+
+.hero {
+	float: left;
+	width: 15%;
+	min-width: 200px;
+	margin-right: 1em;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact a {
+	margin-bottom:1em;
+	padding: 0.5em 1em;
+	font-size: 1.8vw;
+	text-decoration: none; /* remove underline */
+	line-height: 1;
+	color: #edddc6;
+	background-color: #2e2c2b;
+	border: 1px solid black;
+}
+
+.contact a:hover {
+	background-color: #edddc6;
+	color: #3d3d3d;	
+}
+

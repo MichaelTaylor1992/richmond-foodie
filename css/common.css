@@ -1,5 +1,5 @@
 /*
-  * NOTES:
+  * NOTES:  common.css
   * box-sizing - https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
   * Why imnage display: block - https://www.tutorialrepublic.com/faq/how-to-remove-white-space-under-an-image-using-css.php
   * display: flex
@@ -111,13 +111,12 @@ body {
 }
 
 .page-frame {
-	border: 1px solid red;
-  height: 100%;
+  min-height: 100%;
   background-image: url('../images/background_final_v3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 85px;
-  /* z-index: -1; */
+  background-attachment: fixed;
 }
 
 main {
