@@ -264,6 +264,35 @@
   background-color: rgba(255, 255, 255, .9);
   border-color: black;
 }
+
+/* T-CAF SALON DE TEA */
+#tcf-i1,
+#tcf-i2,
+#tcf-i3 {
+  display: none;
+}
+
+#tcf-i1:checked~#one,
+#tcf-i2:checked~#two,
+#tcf-i3:checked~#three {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#tcf-i1:checked~#tcf-one,
+#tcf-i2:checked~#tcf-two,
+#tcf-i3:checked~#tcf-three {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#tcf-i1:checked~.nav_slide #tcf-dot1,
+#tcf-i2:checked~.nav_slide #tcf-dot2,
+#tcf-i3:checked~.nav_slide #tcf-dot3 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
+
 @keyframes scroll {
   0% {
     opacity: .4;
@@ -297,8 +326,8 @@
   }
 }
 
-@media screen and(min-width: 970px) {
-  .me {
-    display: none;
-  }
-}
+/* @media screen and(min-width: 970px) { */
+  /* .me { */
+    /* display: none; */
+  /* } */
+/* } */

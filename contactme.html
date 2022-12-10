@@ -36,51 +36,64 @@ Website:  Contact Form for richmond-foodie.com
 		</header>
 		<main>
 			<h1>Contact Richmond Foodie</h1>
-			<form action="#" method="post" name="contactme">
+			<form action="#" method="post">
+				<p class="prompt">
+				Please enter your name or email address, or both.
+				</p>
 				<!-- Add a name field -->
-				<label for="name">Name</label>
-				<input type="text" size="50" id="name" placeholder="Enter Your Name">
-				<br>
-				<br>
-				<!-- Add an email field -->
-				<label for="e-mail">E-mail address</label>
-				<input type="text" size="60" id="e-mail" placeholder="Enter Your e-mail address">
-				<!--Add Checkbox for Suggestions -->
-				<br>
-				<br>
-				<label>What new foodie place should I know about?</label>
-				<br>
-				<label for="restaurants">Restaurants</label>
-				<input type="checkbox" name="check1" id="restaurants" value="Restaurants">
-				<br>
-				<label for="foodtrucks">Food Trucks</label>
-				<input type="checkbox" name="check2" id="foodtrucks" value="Food Trucks">
-				<br>
-				<label for="festivals">Festivals</label>
-				<input type="checkbox" name="check3" id="festivals" value="Festivals">
-				<br>
-				<label for="newrestaurants">New Restaurants</label>
-				<input type="checkbox" name="check4" id="newrestaurants" value="New Restaurants">
-				<br>
-				<br>
-				Suggestions:<br>
-				<textarea name="suggestions" cols="60" rows="5"></textarea>
-				<br>
+				<div>
+					<label for="name">Name</label><br>
+					<input type="text" size="50" id="name" placeholder="Enter Your Name" required>
+				</div>
+				
+				<div>
+					<!-- Add an email field -->
+					<label for="e-mail">E-mail address</label><br>
+					<input type="text" size="60" id="e-mail" placeholder="Enter Your e-mail address" required>
+				</div>
+				
+				<div>
+					<!--Add Checkbox for Suggestions -->
+					<p>What new foodie place should I know about?</p>
+					<label for="restaurants">Restaurants</label>
+					
+					<input type="checkbox" name="check1" id="restaurants" value="Restaurants">
+					
+					<label for="foodtrucks">Food Trucks</label>
+					
+					<input type="checkbox" name="check2" id="foodtrucks" value="Food Trucks">
+					
+					<label for="festivals">Festivals</label>
+					<input type="checkbox" name="check3" id="festivals" value="Festivals">
+					
+					<label for="newrestaurants">New Restaurants</label>
+					
+					<input type="checkbox" name="check4" id="newrestaurants" value="New Restaurants">
+				
+					<div>
+						<label for="suggestions">Suggestions:</label><br>
+						<textarea name="suggestions"
+						id="suggestions"
+						cols="60" rows="5"></textarea>
+					</div>
 
-				<br>
-				<br>
-				<!-- Add a submit button -->
-				<input type="submit" value="Submit your information">
+					<!-- Add a submit button -->
+					<button>Submit your information</button>
+				</div>
 				
 			</form>
 
 		</main>
-
+		<div id="ty" hidden>
+			<button>&#x2715;</button>
+			<p>Thank you for contacting Richmond Foodie.  I appreciate your input.</p>
+		</div>
+		
 		<footer>
-		<!-- The creator tag will go in the footer.  Need to figure out how to place it at the bottom of the page. -->
-			<p> <!--style="text-align:right; bottom:0" --> Webpage by Okamifan1 Productions – &copy;2022 Richmond Foodie </p>
+			<p>Webpage by Okamifan1 Productions – &copy;2022 Richmond Foodie </p>
 		</footer>
 		</div>
+		<script src="js/contact.js"></script>
 	</body>
 	</html>
 	
