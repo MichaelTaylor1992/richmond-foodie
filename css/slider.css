@@ -156,6 +156,45 @@
   border-color: black;
 }
 
+/* SIAM PARAGON */
+#sia-i1,
+#sia-i2,
+#sia-i3,
+#sia-i4,
+#sia-i5,
+#sia-i6 {
+  display: none;
+}
+
+#sia-i1:checked~#one,
+#sia-i2:checked~#two,
+#sia-i3:checked~#three,
+#sia-i1:checked~#four,
+#sia-i2:checked~#five,
+#sia-i3:checked~#six {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#sia-i1:checked~#sia-one,
+#sia-i2:checked~#sia-two,
+#sia-i3:checked~#sia-three,
+#sia-i4:checked~#sia-four,
+#sia-i5:checked~#sia-five,
+#sia-i6:checked~#sia-six {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#sia-i1:checked~.nav_slide #sia-dot1,
+#sia-i2:checked~.nav_slide #sia-dot2,
+#sia-i3:checked~.nav_slide #sia-dot3,
+#sia-i4:checked~.nav_slide #sia-dot4,
+#sia-i5:checked~.nav_slide #sia-dot5,
+#sia-i6:checked~.nav_slide #sia-dot6 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
 /* HARD SHELL */
 #hrd-i1,
 #hrd-i2,
@@ -195,6 +234,35 @@
   background-color: rgba(255, 255, 255, .9);
   border-color: black;
 }
+
+/* CAN CAN BRASSERIE */
+#can-i1,
+#can-i2,
+#can-i3 {
+  display: none;
+}
+
+#can-i1:checked~#one,
+#can-i2:checked~#two,
+#can-i3:checked~#three {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#can-i1:checked~#can-one,
+#can-i2:checked~#can-two,
+#can-i3:checked~#can-three {
+  animation: scroll 1s ease-in-out;
+  z-index: 9;
+}
+
+#can-i1:checked~.nav_slide #can-dot1,
+#can-i2:checked~.nav_slide #can-dot2,
+#can-i3:checked~.nav_slide #can-dot3 {
+  background-color: rgba(255, 255, 255, .9);
+  border-color: black;
+}
+
 /* ML MODERN STEAKHOUSE */
 #mls-i1,
 #mls-i2 {
