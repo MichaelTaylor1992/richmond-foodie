@@ -32,10 +32,15 @@
 
     <div class="restaurants">
 
+	<!-- Each restaurant will be in a separate div in a class named container -->			
+
       <div id="oce" class="container">
         <a href="https://www.oceanorva.com/about/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/oceanologo.png" alt="Link to Oceano website.">
         </a>
+
+		<!-- Each set of icons for menu and reviews will be in a separate div named icon-frame -->			
+
 		<div class="icon-frame">
 			<a href="oceanoreview.html" target="_blank" rel="noreferrer noopener">
 				<img height="60" width="60" src="images/commenticon.png" alt="Link to Oceano Review" class="menu-icon2">
@@ -45,6 +50,8 @@
 			</a>
 		</div>
 
+		<!-- Each set of sliders will be in their own div named slider.  The number of slider images is determined by the number images for each restaurant. -->
+		
         <div class="slider">
 
           <input type="radio" id="oce-i1" name="oce-images" checked>
@@ -83,20 +90,90 @@
 
       <div id="sia" class="container">
         <a href="https://www.sptrva.com/home" target="_blank"><img height="60" width="120" src="images/siamparagonlogo.png" alt="Siam Paragon logo"></a>
-        <a href="https://www.sptrva.com/menu" target="_blank"><img height="60" width="60" src="images/menuicon.gif" alt="Siam Paragon menu" class="menu-icon"></a>
+		
+		<div class="icon-frame">
+			<a href="siamparagonreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to Siam Paragon Review" class="menu-icon2">
+			</a>
+			<a href="https://www.sptrva.com/menu" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/menuicon.gif" alt="Link to Siam Paragon menu" class="menu-icon">
+			</a>
+		</div>		
+		
+        <div class="slider">
 
-        <div class="slider-solo">
-          <img height="120" width="160" src="images/seawar-siamparagon.jpg" alt="Picture from Siam Paragon">
+          <input type="radio" id="sia-i1" name="sia-images" checked>
+          <input type="radio" id="sia-i2" name="sia-images">
+          <input type="radio" id="sia-i3" name="sia-images">
+          <input type="radio" id="sia-i4" name="sia-images">
+          <input type="radio" id="sia-i5" name="sia-images">
+          <input type="radio" id="sia-i6" name="sia-images">
+
+
+          <div class="slide_img" id="sia-one">
+            <img src="images/siam-kanomjeeb.jpg" alt="Kanom Jeeb Dumplings at Siam Paragon.">
+
+            <label class="prev" for="sia-i6"><span>&#x2039;</span></label>
+            <label class="next" for="sia-i2"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="sia-two">
+            <img src="images/siam-pohtacksoup.jpg" alt="Very spicy Poh Tack Soup at Siam Paragon.">
+
+            <label class="prev" for="sia-i1"><span>&#x2039;</span></label>
+            <label class="next" for="sia-i3"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="sia-three">
+            <img src="images/siam-seawar.jpg" alt="Sea War salad of shrimp, scallops, squid and mussels at Siam Paragon">
+
+            <label class="prev" for="sia-i2"><span>&#x2039;</span></label>
+            <label class="next" for="sia-i4"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="sia-four">
+            <img src="images/siam-drunkennodles.jpg" alt="Extremely spicy drunken noodle at at Siam Paragon">
+
+            <label class="prev" for="sia-i3"><span>&#x2039;</span></label>
+            <label class="next" for="sia-i5"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="sia-five">
+            <img src="images/siam-padwoonsen.jpg" alt="Pad woon sen noodle dish at Siam Paragon.">
+
+            <label class="prev" for="sia-i4"><span>&#x2039;</span></label>
+            <label class="next" for="sia-i6"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="sia-six">
+            <img src="images/siam-crispybanana.jpg" alt="Crispy banana a la mode at Siam Paragon">
+
+            <label class="prev" for="sia-i5"><span>&#x2039;</span></label>
+            <label class="next" for="sia-i1"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="nav_slide">
+            <label for="sia-i1" class="dots" id="sia-dot1"></label>
+            <label for="sia-i2" class="dots" id="sia-dot2"></label>
+            <label for="sia-i3" class="dots" id="sia-dot3"></label>
+            <label for="sia-i4" class="dots" id="sia-dot4"></label>
+            <label for="sia-i5" class="dots" id="sia-dot5"></label>
+            <label for="sia-i6" class="dots" id="sia-dot6"></label>
+          </div>
+
         </div>
-      </div>
+	</div>
 
 
       <div id="hrd" class="container">
         <a href="https://thehardshell.com/bellgrade/" target="_blank"><img height="60" width="120" src="images/hardshell_r.jpg" alt="Link to Hardshell website"></a>
-        <a href="https://thehardshell.com/wp-content/uploads/HSB-Dinner-Lunch.pdf" target="_blank"><img height="60" width="60" src="images/menuicon.gif" alt="Hardshell menu" class="menu-icon"></a>
-       <a href="hardshellreview.html" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/commenticon.png" alt="Link to ML Steak Review" class="menu-icon2">
-        </a>
+		<div class="icon-frame">
+			<a href="hardshellreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to The Hardshell Review" class="menu-icon2">
+			</a>
+			<a href="https://thehardshell.com/wp-content/uploads/HSB-Dinner-Lunch.pdf" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to The Hardshell menu" class="menu-icon">
+			</a>
+		</div>
 
         <div class="slider">
 
@@ -165,9 +242,15 @@
         <a href="https://amigosfamilyrestaurant.com/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/amigoslogo.png" alt="Link to Amigos website.">
         </a>
-        <a href="https://amigosfamilyrestaurant.com/food-menu/" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/menuicon.gif" alt="Link to Amigos menu" class="menu-icon">
-        </a>
+		
+		<div class="icon-frame">
+			<a href="amigosreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to Amigos Family Restaurant Review" class="menu-icon2">
+			</a>
+		
+			<a href="https://amigosfamilyrestaurant.com/food-menu/" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to Amigos Family Restaurant menu" class="menu-icon">
+			</a>
+		</div>			
 		
         <div class="slider-solo">
           <img height="120" width="160" src="images/chilaquiles.jpg" alt="Chilaquiles from Amigos Family Resturaunt.">
@@ -179,32 +262,65 @@
         <a href="https://www.cancanrva.com/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/cancanlogo.png" alt="Link to Can Can Brasserie's website.">
         </a>
-        <a href="https://www.cancanrva.com/menus-" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/menuicon.gif" alt="Link to Can Can Brasserie's menu" class="menu-icon">
-        </a>
+		<div class="icon-frame">
+			<a href="cancanreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to Can Can Brasserie Review" class="menu-icon2">
+			</a>
+			<a href="https://www.cancanrva.com/menus-" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to Can Can Brasserie menu" class="menu-icon">
+			</a>
+		</div>		
 		
-        <div class="slider-solo">
-          <img height="120" width="160" src="images/cancan.jpg" alt="Escargot in garlic butter from Can Can.">
-        </div>
+        <div class="slider">
 
+          <input type="radio" id="can-i1" name="can-images" checked>
+          <input type="radio" id="can-i2" name="can-images">
+          <input type="radio" id="can-i3" name="can-images">
+
+          <div class="slide_img" id="can-one">
+            <img src="images/cancan-escargot.jpg" alt="Escargot at Can Can Brasserie.">
+
+            <label class="prev" for="can-i3"><span>&#x2039;</span></label>
+            <label class="next" for="can-i2"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="can-two">
+            <img src="images/cancan-frenchonion.jpg" alt="French onion soup at Can Can Brasserie.">
+            <label class="prev" for="can-i1"><span>&#x2039;</span></label>
+            <label class="next" for="can-i3"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="slide_img" id="can-three">
+            <img src="images/cancan-scallops.jpg" alt="Seared scallops at Can Can Brasserie.>">
+
+            <label class="prev" for="can-i2"><span>&#x2039;</span></label>
+            <label class="next" for="can-i1"><span>&#x203a;</span></label>
+          </div>
+
+          <div class="nav_slide">
+            <label for="can-i1" class="dots" id="can-dot1"></label>
+            <label for="can-i2" class="dots" id="can-dot2"></label>
+            <label for="can-i3" class="dots" id="can-dot3"></label>
+          </div>
+        </div>
 	  </div>
 
       <div id="mls" class="container">
         <a href="https://www.mlsteakrva.com/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/mlsteaklogo.png" alt="Link to ML Modern Steakhouse website.">
         </a>
-        <a href="https://www.mlsteakrva.com/menu" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/menuicon.gif" alt="Link to ML Modern Steakhouse menu," class="menu-icon">
-        </a>
-        <a href="mlsteakreview.html" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/commenticon.png" alt="Link to ML Steak Review" class="menu-icon2">
-        </a>
+		
+		<div class="icon-frame">
+			<a href="mlsteakreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to ML Steakhouse  Review" class="menu-icon2">
+			</a>
+			<a href="https://www.mlsteakrva.com/menu" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to ML Steakhouse menu" class="menu-icon">
+			</a>
+		</div>		
 
         <div class="slider">
 
           <input type="radio" id="mls-i1" name="mls-images" checked>
           <input type="radio" id="mls-i2" name="mls-images">
-
 
           <div class="slide_img" id="mls-one">
             <img src="images/mlsteak-steak.jpg" alt="Steak from ML Steakhouse">
@@ -233,12 +349,14 @@
         <a href="http://mamajskitchen.com/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/mamajslogo.png" alt="Link to Mama J's website.">
         </a>
-        <a href="http://mamajskitchen.com/menu-2/" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/menuicon.gif" alt="Link to Mama J's menu," class="menu-icon">
-        </a>
-       <a href="mamajsreview.html" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/commenticon.png" alt="Link to Mama J;s Kitchen Review" class="menu-icon2">
-        </a>
+
+		<div class="icon-frame">
+			<a href="mamajsreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to Mama J's Kitchen Review" class="menu-icon2">
+			</a>
+			<a href="http://mamajskitchen.com/menu-2/" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to Mama J's Kitchen menu" class="menu-icon">
+			</a>
+		</div>		
 
         <div class="slider">
 
@@ -272,20 +390,19 @@
         <a href="https://www.sugarscrabshack.com/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/sugarslogo.png" alt="Link to Sugar's Crab Shack's website.">
         </a>
-        <a href="https://static.wixstatic.com/media/aef63c_9b0cff4d3e1b4fef806547793047df42~mv2_d_1338_2116_s_2.jpg/v1/fill/w_1244,h_1970,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/aef63c_9b0cff4d3e1b4fef806547793047df42~mv2_d_1338_2116_s_2.jpg" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/menuicon.gif" alt="Link to Sugar's Crab Shack's menu," class="menu-icon">
-        </a>
-        <a href="sugarscrabshackreview.html" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/commenticon.png" alt="Link to Sugar's Crab Shack Review" class="menu-icon2">
-        </a>
 		
+		<div class="icon-frame">
+			<a href="sugarscrabshackreview.html" target="_blank" rel="noreferrer noopener">
+				<img height="60" width="60" src="images/commenticon.png" alt="Link to Sugar's Crab Shack Review" class="menu-icon2">
+			</a>
+			<a href="https://static.wixstatic.com/media/aef63c_9b0cff4d3e1b4fef806547793047df42~mv2_d_1338_2116_s_2.jpg/v1/fill/w_1244,h_1970,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/aef63c_9b0cff4d3e1b4fef806547793047df42~mv2_d_1338_2116_s_2.jpg" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to Sugar's Crab Shack menu" class="menu-icon">
+			</a>
+		</div>			
 
         <div class="slider">
 
           <input type="radio" id="ssc-i1" name="ssc-images" checked>
           <input type="radio" id="ssc-i2" name="ssc-images">
-
-
 
           <div class="slide_img" id="ssc-one">
             <img src="images/sugars-3piecefish.jpg" alt="3 piece fish combo from Sugar's Crab Shack.">
@@ -313,9 +430,11 @@
         <a href="https://www.t-caf.com/" target="_blank" rel="noreferrer noopener">
           <img height="60" width="120" src="images/tcaflogo.png" alt="Link to T-Caf Salon de The.">
         </a>
-        <a href="https://www.t-caf.com/ourpetitefaimmenu" target="_blank" rel="noreferrer noopener">
-          <img height="60" width="60" src="images/menuicon.gif" alt="Link to T-Caf Salon de The menu" class="menu-icon">
-        </a>
+		
+		<div class="icon-frame">
+			<a href="https://www.t-caf.com/ourpetitefaimmenu" target="_blank" rel="noreferrer noopener"><img height="60" width="60" src="images/menuicon.gif" alt="Link to T-Caf Salon de Tea menu" class="menu-icon">
+			</a>
+		</div>			
 
         <div class="slider">
 
@@ -366,4 +485,3 @@
 </body>
 
 </html>
-
